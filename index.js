@@ -31,8 +31,8 @@ const main = async (pathIn, pathOut, sourceLanguage, targetLanguage) => {
 (async () => {
   // Synthax path -> Fullpath
 
-  const pathIn = 'D:\\turch\\Documents\\Developpement\\Nodejs\\translate-script\\messages.xlf';
-  const pathOut = 'D:\\turch\\Documents\\Developpement\\Nodejs\\translate-script\\messages.de.xlf';
+  const pathIn = 'C:\\translate-script\\messages.xlf';
+  const pathOut = 'C:\\translate-script\\messages.de.xlf';
 
   const sourceLanguage = Language.fr;
   const targetLanguage = Language.de;
