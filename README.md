@@ -4,9 +4,11 @@
 
   <h3 align="center">i18n XML converter</h3>
 
-  <a href="https://github.com/Magictruks/i18n-convert-transalte-file">
+<div align="center">
+  <a href="https://github.com/Magictruks/i18n-convert-translate-file">
     <img src="assets/I18n_convert_translate_file.png" alt="Logo">
   </a>
+</div>
 
   <p align="center">
     Tools to convert an XML (or XLF) file into the language of your choice
