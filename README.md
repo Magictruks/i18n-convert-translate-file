@@ -91,4 +91,4 @@ Run translate
 
 Turchini Axel - [Linkedin](www.linkedin.com/in/axelturchini) - turchini.axel@gmail.com
 
-Project Link: [https://github.com/Magictruks/i18n-convert-transalte-file](https://github.com/Magictruks/i18n-convert-transalte-file)
+Project Link: [https://github.com/Magictruks/i18n-convert-transalte-file](https://github.com/Magictruks/i18n-convert-translate-file)
