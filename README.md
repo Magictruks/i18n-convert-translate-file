@@ -34,6 +34,7 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#language">Language</a></li>
+        <li><a href="#translate">Translate</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -85,6 +86,14 @@ Run translate
 <p align="justify">You can add a language that is not in the list of languages in the enum/language.enum.js file. Make sure that the instructions you want to add are compatible with Deepl.
 
 (useful link: http://www.lingoes.net/en/translator/langcode.htm)</p>
+
+### Translate
+
+<p align="justify">Translate object has two methods :
+
+- onlyUntarget() -> By default, just translate words who hasn't target
+- all() -> Translate and replace all words
+</p>
 
 
 ## Contact
