@@ -36,4 +36,4 @@ class Xml {
     }
 }
 
-export { Xml }
+export { Xml };

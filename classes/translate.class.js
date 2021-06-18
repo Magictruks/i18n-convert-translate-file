@@ -9,7 +9,7 @@ class Translate {
 
     async all(xmlObj, page) {
 
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < xmlObj.elements.length; i++) {
             const element = xmlObj.elements[i];
 
             if (element.source.$t) {
@@ -22,7 +22,7 @@ class Translate {
 
     async onlyUntarget(xmlObj, page) {
 
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < xmlObj.elements.length; i++) {
             const element = xmlObj.elements[i];
 
             if (!element.target && element.source.$t) {
@@ -62,4 +62,4 @@ class Translate {
     }
 }
 
-export { Translate }
+export { Translate };

@@ -19,4 +19,4 @@ export const Language = {
         key: 'it',
         code: 'it-IT'
     },
-}
+};

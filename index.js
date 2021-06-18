@@ -19,8 +19,6 @@ const main = async (pathIn, pathOut, sourceLanguage, targetLanguage) => {
 
   await translate.onlyUntarget(xmlObject, page);
 
-  // await translate.all(xmlObject, page);
-
   Logger.endTranslate();
 
   xmlObject.writeTranslateFile();

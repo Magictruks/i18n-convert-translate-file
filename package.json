@@ -1,14 +1,14 @@
 {
-  "name": "translate-script",
+  "name": "i18n-convert-transalte-file",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Tools to convert an XLF (or XML) file, from i18n, into the language of your choice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["i18n", "convert", "translate", "xml", "xlf", "angular"],
+  "author": "Turchini Axel",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^10.0.0",
