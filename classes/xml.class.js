@@ -11,6 +11,7 @@ class Xml {
         this.init();
     }
 
+    // Initialisation of XML Object from XML input file
     init() {
         const data = fs.readFileSync(this.pathIn);
 
@@ -19,6 +20,7 @@ class Xml {
         this.content.xliff.file['target-language'] = this.targetLanguage.code;
     }
 
+    // Write the translated file
     writeTranslateFile() {
         const finalXml = xmlParser.toXml(JSON.stringify(this.content));
 
@@ -26,10 +28,12 @@ class Xml {
         fs.appendFileSync(this.pathOut, formatXml(finalXml, {collapseContent: true}));
     }
 
+    // Get all elements
     get elements() {
         return this.content.xliff.file.body['trans-unit'];
     }
 
+    // Set target translate
     set target(target) {
         const { index, ...data } = target;
         this.content.xliff.file.body['trans-unit'][index].target = data;

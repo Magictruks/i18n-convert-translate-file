@@ -94,7 +94,7 @@ Run translate
 - onlyUntarget() -> By default, just translate words who hasn't target
 - all() -> Translate and replace all words
   
-The waiting time between each request is 2000 ms. Feel free to increase this time if you see that the algorithm does not have enough time to find the translation.
+The waiting time between each request is 2000 ms. Feel free to increase this time if you see that the algorithm does not have enough time to find the translation (classes > tranlate.class.js > _searchTrad).
   
 </p>
 

@@ -7,6 +7,7 @@ class Translate {
         this.targetLanguage = targetLanguage;
     }
 
+    // Translate all words and replace the words already translated
     async all(xmlObj, page) {
 
         for (let i = 0; i < xmlObj.elements.length; i++) {
@@ -20,6 +21,7 @@ class Translate {
         }
     }
 
+    // Translate only words who has'nt translated
     async onlyUntarget(xmlObj, page) {
 
         for (let i = 0; i < xmlObj.elements.length; i++) {
@@ -33,10 +35,12 @@ class Translate {
         }
     }
 
+    // Scrapping DeepL Translator
     async #_searchTrad(page, trad) {
 
         await page.goto(`https://www.deepl.com/translator#${this.sourceLanguage.key}/${this.targetLanguage.key}/${trad}`);
 
+        // You can chage timeout delay has you want
         await page.waitForTimeout(2000);
 
         const res = await page.$$eval('.lmt__inner_textarea_container', span => span.map(s => s.textContent));
@@ -45,6 +49,7 @@ class Translate {
 
     }
 
+    // Translation recovery logic
     async #_process(xmlObj, element, index, page) {
         try {
             const deTrad = await this.#_searchTrad(page, element.source.$t);
@@ -57,7 +62,7 @@ class Translate {
             }
 
         } catch (e) {
-            console.log('\x1b[31m',e);
+            Logger.scrappingError(e);
         }
     }
 }
