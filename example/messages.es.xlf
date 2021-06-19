@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="fr" datatype="plaintext" original="ng2.template" target-language="es-ES">
+        <body>
+            <trans-unit id="68f804572d399e03252ce1a60c961465e1f543a5" datatype="html">
+                <source>Recherche</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/components/recherche/recherche.component.html</context>
+                    <context context-type="linenumber">8</context>
+                </context-group>
+                <target state="translated">Buscar en</target>
+            </trans-unit>
+            <trans-unit id="856bf95b397596f8a00eac1af83a85df22df04dc" datatype="html">
+                <source>Client</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/components/client/client.component.ts</context>
+                    <context context-type="linenumber">14</context>
+                </context-group>
+                <target state="translated">Cliente</target>
+            </trans-unit>
+            <trans-unit id="08da47e7553e518b4e747d5b13ca4aec94bc3e36" datatype="html">
+                <source>Commentaires</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/components/commentaire/commentaire.component.ts</context>
+                    <context context-type="linenumber">15</context>
+                </context-group>
+                <target state="translated">Comentarios</target>
+            </trans-unit>
+            <trans-unit id="226fd31e5fb793ce1d9e8f3d9ff0ae539516651f" datatype="html">
+                <source>Ajouter</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/components/ajouter/ajouter.component.ts</context>
+                    <context context-type="linenumber">19</context>
+                </context-group>
+                <target state="translated">Añadir</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

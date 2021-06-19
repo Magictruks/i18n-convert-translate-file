@@ -4,6 +4,7 @@ import { Translate } from "./classes/translate.class.js";
 import { Language } from "./enum/language.enum.js";
 import puppeteer from 'puppeteer';
 import fs from "fs";
+import path from "path";
 
 const main = async (pathIn, pathOut, sourceLanguage, targetLanguage) => {
 
@@ -45,16 +46,17 @@ const main = async (pathIn, pathOut, sourceLanguage, targetLanguage) => {
 
 (async () => {
   // You can choose your source language and your target language
+  // Make sure that your source language matches the one in your input file
   const sourceLanguage = Language.fr;
   const targetLanguage = Language.de;
 
-  // You can choose your own input file path (fullpath only)
+  // You can choose your own input file path
   // ex here : C:\translate-script\messages.de.xlf
-  const pathIn = 'C:\\translate-script\\messages.xlf';
+  const pathIn = '.\\example\\messages.xlf';
 
-  // You can choose your own output file path (fullpath only)
+  // You can choose your own output file path
   // ex here : C:\translate-script\messages.de.xlf
-  const pathOut = `C:\\translate-script\\messages.${targetLanguage.key}.xlf`;
+  const pathOut = `.\\example\\messages.${targetLanguage.key}.xlf`;
 
   return await main(pathIn, pathOut, sourceLanguage, targetLanguage);
 })();
