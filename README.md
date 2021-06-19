@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/Magictruks/i18n-convert-translate-file">
-    <img src="assets/I18n_convert_translate_file.png" alt="Logo">
+    <img src="assets/I18n_convert_translate_filev2.png" alt="Logo">
   </a>
 </div>
 
