@@ -14,7 +14,7 @@
     Tools to convert an XML (or XLF) file into the language of your choice
   </p>
 
-<details open="open">
+<!-- <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -39,7 +39,26 @@
     </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
+</details> -->
+
+### Table of content
+[About the Project](#about-the-project)
+
+- [Preambule](#preambule)
+
+- [Feature](#feature)
+
+[Get Started](#get-started)
+
+- [Installation](#installation)
+
+[Usage](#usage)
+
+- [Language](#language)
+
+- [Translate](#translate)
+
+[Contact](#contact)
 
 ## About The Project
 
